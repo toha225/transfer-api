@@ -20,7 +20,7 @@ Spring Boot, Spring Data JPA, Spring Security и Swagger для документ
 ### Последовательность запуска
 
 1. **Клонирование репозитория**
-2. **указать подключение к БД в файле application.properties**
+2. **Указать подключение к БД в файле application.properties**
 3. **Сборка проекта**
     
    ```bash
