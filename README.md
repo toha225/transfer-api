@@ -20,18 +20,19 @@ Spring Boot, Spring Data JPA, Spring Security и Swagger для документ
 ### Последовательность запуска
 
 1. **Клонирование репозитория**
-2. **Сборка проекта**
+2. **указать подключение к БД в файле application.properties**
+3. **Сборка проекта**
     
    ```bash
    mvn clean install
 
 
-3.  **Запуск приложения**
+4.  **Запуск приложения**
 
     ```bash
     java -jar target/transfer-api-0.0.1-SNAPSHOT.jar
 
-4.  **Доступ к документации Swagger**
+5.  **Доступ к документации Swagger**
     ```
     http://localhost:8080/swagger-ui/index.html
 
